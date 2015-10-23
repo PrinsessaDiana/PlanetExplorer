@@ -93,7 +93,7 @@ public class PlanetExplorer {
 			     face_NORTH = false;
 			setExplorerLocation(location_x,currentLoca_y); //Setting Explorer
 			
-				System.out.print("command f" + face_SOUTH); // Testing that test runs this "if"
+				System.out.print("command f" + face_SOUTH + getExplorerLocation()); // Testing that test runs this "if"
 		}
 		
 		else if(command == "r") {
