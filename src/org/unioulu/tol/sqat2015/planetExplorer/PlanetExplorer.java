@@ -81,7 +81,7 @@ public class PlanetExplorer {
 		boolean face_EAST;
 		boolean face_WEST;
 		int currentLoca_y;
-		int currentLoca_X;
+		int currentLoca_x;
 		
 		//If command is f :
 		if(command == "f") {
@@ -103,7 +103,7 @@ public class PlanetExplorer {
 			     face_EAST = true;
 			     face_WEST = false;
 			     face_NORTH = false;
-			setExplorerLocation(location_x,currentLoca_y); //Setting Explorer
+			setExplorerLocation(currentLoca_x,currentLoca_y); //Setting Explorer
 			
 		}
 		
