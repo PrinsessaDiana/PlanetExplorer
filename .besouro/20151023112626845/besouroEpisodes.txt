@@ -57,3 +57,6 @@
 1445596206743 test-first 3 317 true
 1445596206744 test-last 1 317 false
 1445596206745 test-last 1 317 false
+1445596243675 test-addition 2 23 true
+1445596243676 test-addition 1 23 true
+1445596243677 test-addition 1 23 true
