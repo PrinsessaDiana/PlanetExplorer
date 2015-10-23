@@ -86,8 +86,11 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
+		String facing = null;
 		boolean face_SOUTH;
+		 if (face_SOUTH = true){
+			 facing = "facing SOUTH";
+		 }
 		boolean face_NORTH;
 		boolean face_EAST;
 		boolean face_WEST;
@@ -119,7 +122,8 @@ public class PlanetExplorer {
 		}
 		
 		String currentLocation_x = Integer.toString(currentLoca_x);
+		String currentLocation_y = Integer.toString(currentLoca_y);
 		
-		return currentLocation_x;
+		return currentLocation_x + " " + currentLocation_y + " " + facing ;
 	}
 }
