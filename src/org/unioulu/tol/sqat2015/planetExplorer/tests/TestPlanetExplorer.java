@@ -15,8 +15,8 @@ public class TestPlanetExplorer {
 		
 		
 		
-		int location_x = 1;
-		int location_y = 1;
+		int location_x = 0;
+		int location_y = 0;
 		
 		
 		String command_f = "f";

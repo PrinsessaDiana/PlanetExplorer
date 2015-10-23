@@ -220,3 +220,6 @@ CompilationAction 1445594549442 TestPlanetExplorer.java
 CompilationAction 1445594589398 PlanetExplorer.java
 CompilationAction 1445594589399 PlanetExplorer.java
 EditAction 1445594612953 TestPlanetExplorer.java 644 1 9 2
+UnitTestCaseAction 1445594614559 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594614560 TestPlanetExplorer OK
+EditAction 1445594631965 TestPlanetExplorer.java 644 1 9 2
