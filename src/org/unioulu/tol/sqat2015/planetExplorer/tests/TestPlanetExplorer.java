@@ -16,13 +16,13 @@ public class TestPlanetExplorer {
 		
 		pe.setPlanet(planet);
 		
-		System.out.print(pe.getPlanet());
+		
 		
 		String command = "f";
 		
 		pe.executeCommand(command);
 		
-		assertEquals(pe.isFacingSouth(), true);
+		assertEquals(pe.isFacingEast(), true);
 		
 	}
 }
