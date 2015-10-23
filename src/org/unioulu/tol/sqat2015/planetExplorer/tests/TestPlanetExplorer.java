@@ -21,6 +21,8 @@ public class TestPlanetExplorer {
 		
 		String command_f = "f";
 		String command_r = "r";
+		String command_l = "l";
+		String command_d = "d";
 		
 		pe.executeCommand(command_f);
 		pe.executeCommand(command_r);
