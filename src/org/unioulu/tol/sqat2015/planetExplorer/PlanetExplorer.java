@@ -11,8 +11,8 @@ public class PlanetExplorer {
 	
 	String obstacle_x;
 	String obstacle_y;
-	private int size_x;
-	private int size_y;
+	 int [][] planetSize;
+	
 
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -38,14 +38,13 @@ public class PlanetExplorer {
 	
 	public void SetPlanet (int x, int y) {
 		
-		this.size_x = x;
-		this.size_y = y;
+		this.planetSize = [x][y];
 		
 	}
 	
-	public int GetPlanet () {
+	public int[][] GetPlanet () {
 		
-		return size_x + size_y;
+		return 
 		
 	}
 	

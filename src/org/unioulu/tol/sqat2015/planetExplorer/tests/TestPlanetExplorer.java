@@ -13,9 +13,9 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(0, 0, null);
 		
 		
-		pe.SetPlanet(6, 6);
+		pe.setPlanet(6, 6);
 		
-		System.out.print(pe.GetPlanet());
+		System.out.print(pe.getPlanet());
 		
 		
 		

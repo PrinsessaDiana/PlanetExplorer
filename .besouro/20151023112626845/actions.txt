@@ -58,3 +58,16 @@ RefactoringAction 1445591233000 PlanetExplorer.java REMOVE y FIELD
 RefactoringAction 1445591302229 PlanetExplorer.java RENAME Planet(int, int)=>void SetPlanet(int, int) METHOD
 RefactoringAction 1445591309260 PlanetExplorer.java ADD int GetPlanet() METHOD
 EditAction 1445591393118 TestPlanetExplorer.java 402 1 3 0
+UnitTestCaseAction 1445591395780 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591395781 TestPlanetExplorer OK
+RefactoringAction 1445591444325 PlanetExplorer.java REMOVE size_y FIELD
+RefactoringAction 1445591454368 PlanetExplorer.java RENAME size_x=>int planetsize_x FIELD
+RefactoringAction 1445591455881 PlanetExplorer.java RENAME planetsize_x=>int planetSize_x FIELD
+RefactoringAction 1445591458397 PlanetExplorer.java RENAME planetSize_x=>int planetSizex FIELD
+RefactoringAction 1445591459412 PlanetExplorer.java RENAME planetSizex=>int planetSize FIELD
+CompilationAction 1445591529805 PlanetExplorer.java
+CompilationAction 1445591529806 PlanetExplorer.java
+CompilationAction 1445591529806 PlanetExplorer.java
+RefactoringAction 1445591536757 PlanetExplorer.java RENAME GetPlanet()=>int METHOD
+RefactoringAction 1445591538775 PlanetExplorer.java RENAME SetPlanet(int, int)=>void setPlanet(int, int) METHOD
+EditAction 1445591546267 TestPlanetExplorer.java 402 1 3 0
