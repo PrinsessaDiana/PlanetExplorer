@@ -19,7 +19,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		
+		System.out.print(planet);
 	
 		
 	}
@@ -39,7 +39,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		System.out.print(planet);
+		
 		
 		return null;
 	}

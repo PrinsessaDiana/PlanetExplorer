@@ -12,3 +12,8 @@ RefactoringAction 1445589969445 PlanetExplorer.java REMOVE planet FIELD
 RefactoringAction 1445590040104 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int FIELD
 EditAction 1445590085696 PlanetExplorer.java 1416 2 1 0
 EditAction 1445590100240 PlanetExplorer.java 1449 2 2 0
+UnitTestCaseAction 1445590103913 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1445590103915 TestBowlingScoreCalculator OK
+FileOpenedAction 1445590123245 Frame.java 1010 6 9 0
+RefactoringAction 1445590167811 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445590211935 PlanetExplorer.java 1449 2 2 0
