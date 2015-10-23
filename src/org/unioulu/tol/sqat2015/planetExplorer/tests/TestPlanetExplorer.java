@@ -22,5 +22,7 @@ public class TestPlanetExplorer {
 		
 		pe.executeCommand(command);
 		
+		assertEquals(pe.isFacingSouth(), true);
+		
 	}
 }

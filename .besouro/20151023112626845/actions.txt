@@ -92,3 +92,14 @@ CompilationAction 1445592253007 PlanetExplorer.java
 UnitTestCaseAction 1445592399395 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445592399396 TestPlanetExplorer OK
 EditAction 1445592426511 TestPlanetExplorer.java 497 1 6 0
+FileOpenedAction 1445592490549 TestBowlingScoreCalculator.java 1363 2 23 9
+RefactoringAction 1445592531727 PlanetExplorer.java ADD void isFacingSouth() METHOD
+RefactoringAction 1445592568852 PlanetExplorer.java ADD void isFacingNorth() METHOD
+RefactoringAction 1445592576901 PlanetExplorer.java ADD boolean isFacingSouth()/2 METHOD
+RefactoringAction 1445592576902 PlanetExplorer.java ADD void isFacingNorth()/2 METHOD
+RefactoringAction 1445592579919 PlanetExplorer.java RENAME isFacingSouth()/2=>boolean isFacingWEST() METHOD
+RefactoringAction 1445592582933 PlanetExplorer.java RENAME isFacingNorth()/2=><initializer /1> null
+RefactoringAction 1445592591995 PlanetExplorer.java ADD boolean isFacingEAST FIELD
+RefactoringAction 1445592650228 PlanetExplorer.java RENAME isFacingWEST()=>boolean isFacingWest() METHOD
+RefactoringAction 1445592652747 PlanetExplorer.java RENAME isFacingEAST()=>boolean isFacingEast() METHOD
+EditAction 1445592724902 TestPlanetExplorer.java 544 1 7 1

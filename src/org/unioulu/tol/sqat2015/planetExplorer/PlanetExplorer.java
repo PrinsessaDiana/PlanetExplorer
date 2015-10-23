@@ -62,7 +62,23 @@ public class PlanetExplorer {
 	}
 	
 	
+	public boolean isFacingSouth() {
+		
+		return true;
+	}
 	
+	public boolean isFacingNorth() {
+		return true;
+	}
+	
+public boolean isFacingWest() {
+		
+		return true;
+	}
+	
+public boolean isFacingEast() {
+		return true;
+	}
 	
 	public String executeCommand(String command){
 		
@@ -76,16 +92,13 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		boolean facing_NORTH;
-		boolean facing_SOUTH;
-		boolean facing_EAST;
-		boolean facing_WEST;
+	
 		
 		int [][] location = new int [planetEx_x][planetEx_y];
 		
 		if(command == "f") {
 			
-			facing_EAST = true;
+			isFacingSouth();
 			planetEx_y = planetEx_y + 1;
 			
 			
