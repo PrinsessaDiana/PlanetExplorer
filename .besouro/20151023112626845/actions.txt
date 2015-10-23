@@ -146,3 +146,20 @@ CompilationAction 1445593489414 PlanetExplorer.java
 CompilationAction 1445593489589 PlanetExplorer.java
 CompilationAction 1445593489590 TestPlanetExplorer.java
 EditAction 1445593524261 PlanetExplorer.java 2448 7 16 0
+CompilationAction 1445593531864 TestPlanetExplorer.java
+CompilationAction 1445593532418 TestPlanetExplorer.java
+CompilationAction 1445593532419 TestPlanetExplorer.java
+RefactoringAction 1445593546392 PlanetExplorer.java REMOVE planetSize FIELD
+RefactoringAction 1445593557635 PlanetExplorer.java REMOVE getPlanet() METHOD
+RefactoringAction 1445593557635 PlanetExplorer.java REMOVE setPlanet(int METHOD
+CompilationAction 1445593558467 TestPlanetExplorer.java
+CompilationAction 1445593558467 TestPlanetExplorer.java
+CompilationAction 1445593576613 TestPlanetExplorer.java
+CompilationAction 1445593576771 TestPlanetExplorer.java
+CompilationAction 1445593606166 TestPlanetExplorer.java
+CompilationAction 1445593606327 TestPlanetExplorer.java
+CompilationAction 1445593606327 TestPlanetExplorer.java
+CompilationAction 1445593615108 TestPlanetExplorer.java
+UnitTestCaseAction 1445593617157 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593617157 TestPlanetExplorer OK
+EditAction 1445593641852 TestPlanetExplorer.java 511 1 6 1

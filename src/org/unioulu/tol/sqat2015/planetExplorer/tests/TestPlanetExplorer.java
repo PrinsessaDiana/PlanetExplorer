@@ -10,19 +10,20 @@ public class TestPlanetExplorer {
 	@Test
 	public void test() {
 	
-		PlanetExplorer pe = new PlanetExplorer(0, 0, null);
+		PlanetExplorer pe = new PlanetExplorer(6, 6, null);
 		
-		int [][] planet = new int [6][6];
 		
-		pe.setPlanet(planet);
 		
+		
+		int location_x = 0;
+		int location_y = 1;
 		
 		
 		String command = "f";
 		
 		pe.executeCommand(command);
 		
-		assertEquals(true, pe.isFacingEast());
+		assertEquals(location_y, pe.getExplorerLocation());
 		
 	}
 }
