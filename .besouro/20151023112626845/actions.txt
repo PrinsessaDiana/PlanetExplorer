@@ -111,3 +111,38 @@ UnitTestSessionAction 1445592747898 TestPlanetExplorer OK
 EditAction 1445592794593 PlanetExplorer.java 2332 9 14 0
 FileOpenedAction 1445592797028 TestBowlingScoreCalculator.java 1363 2 23 9
 EditAction 1445592823300 TestPlanetExplorer.java 510 1 6 1
+UnitTestCaseAction 1445592824902 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592824903 TestPlanetExplorer OK
+FileOpenedAction 1445592836150 BowlingGame.java 2282 6 19 0
+RefactoringAction 1445592892842 PlanetExplorer.java REMOVE isFacingWest() METHOD
+RefactoringAction 1445592892843 PlanetExplorer.java REMOVE isFacingEast() METHOD
+RefactoringAction 1445592892843 PlanetExplorer.java REMOVE isFacingNorth() METHOD
+RefactoringAction 1445592894859 PlanetExplorer.java RENAME isFacingSouth()=>boolean isFacing() METHOD
+RefactoringAction 1445592902904 PlanetExplorer.java RENAME isFacing()=>boolean isFacing(boolean) METHOD
+RefactoringAction 1445592914936 PlanetExplorer.java RENAME isFacing(boolean)=>boolean isFacing(boolean, boolean) METHOD
+RefactoringAction 1445592917452 PlanetExplorer.java RENAME isFacing(boolean, boolean)=>boolean isFacing(boolean, boolean, boolean) METHOD
+RefactoringAction 1445592923982 PlanetExplorer.java RENAME isFacing(boolean, boolean, boolean)=>boolean isFacing(boolean, boolean, boolean, boolean) METHOD
+RefactoringAction 1445593001704 PlanetExplorer.java REMOVE isFacing(boolean, boolean, boolean, boolean) METHOD
+CompilationAction 1445593039668 TestPlanetExplorer.java
+RefactoringAction 1445593081425 PlanetExplorer.java ADD void ExplorerLocation() METHOD
+RefactoringAction 1445593100488 PlanetExplorer.java RENAME ExplorerLocation()=>void ExplorerLocation(int METHOD
+RefactoringAction 1445593114566 PlanetExplorer.java RENAME ExplorerLocation(int=>void setExplorerLocation(int METHOD
+RefactoringAction 1445593139145 PlanetExplorer.java ADD int FIELD
+CompilationAction 1445593194900 TestPlanetExplorer.java
+RefactoringAction 1445593213330 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445593215346 PlanetExplorer.java RENAME getExplorer=>int METHOD
+CompilationAction 1445593227296 TestPlanetExplorer.java
+RefactoringAction 1445593391465 PlanetExplorer.java RENAME setExplorerLocation(int=>void setExplorerLocation(int) METHOD
+RefactoringAction 1445593428063 PlanetExplorer.java ADD int location_x FIELD
+RefactoringAction 1445593431580 PlanetExplorer.java RENAME location=>location y_ FIELD
+RefactoringAction 1445593434114 PlanetExplorer.java RENAME y_=>int location FIELD
+RefactoringAction 1445593442149 PlanetExplorer.java RENAME location=>int location_y FIELD
+CompilationAction 1445593443173 PlanetExplorer.java
+CompilationAction 1445593443174 PlanetExplorer.java
+CompilationAction 1445593443174 TestPlanetExplorer.java
+RefactoringAction 1445593466713 PlanetExplorer.java RENAME setExplorerLocation(int)=>void setExplorerLocation(int, int) METHOD
+CompilationAction 1445593489413 PlanetExplorer.java
+CompilationAction 1445593489414 PlanetExplorer.java
+CompilationAction 1445593489589 PlanetExplorer.java
+CompilationAction 1445593489590 TestPlanetExplorer.java
+EditAction 1445593524261 PlanetExplorer.java 2448 7 16 0

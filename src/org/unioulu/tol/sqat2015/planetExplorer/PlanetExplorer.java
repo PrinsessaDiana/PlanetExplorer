@@ -8,7 +8,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class PlanetExplorer {
 	
-	
+	int location_x;
+	int location_y;
 	String obstacle_x;
 	String obstacle_y;
 	 int [][] planetSize;
@@ -62,23 +63,18 @@ public class PlanetExplorer {
 	}
 	
 	
-	public boolean isFacingSouth() {
+ public void setExplorerLocation(int location_x, int location_y) {
+	 
+	 this.location_x = location_x;
+	 this.location_y = location_y;
+ }
+ 
+ public int getExplorerLocation() {
+	 
+	 return location_x & location_y;
+ }
 		
-		return true;
-	}
-	
-	public boolean isFacingNorth() {
-		return true;
-	}
-	
-public boolean isFacingWest() {
-		
-		return true;
-	}
-	
-public boolean isFacingEast() {
-		return true;
-	}
+
 	
 	public String executeCommand(String command){
 		
@@ -92,17 +88,21 @@ public boolean isFacingEast() {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-	
+		boolean face_SOUTH;
+		boolean face_NORTH;
+		boolean face_EAST;
+		boolean face_WEST;
 		
-		int [][] location = new int [planetEx_x][planetEx_y];
+		
 		
 		if(command == "f") {
 			
-			isFacingSouth();
+			
+			
 			planetEx_y = planetEx_y + 1;
-			
-			
-			
+			face_SOUTH = true;
+			setExplorerLocation(location_x,location_y);
+				
 		}
 		
 		
