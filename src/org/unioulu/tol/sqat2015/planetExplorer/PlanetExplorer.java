@@ -118,7 +118,8 @@ public class PlanetExplorer {
 			
 		}
 		
+		String currentLocation_x = Integer.toString(currentLoca_x);
 		
-		return null;
+		return currentLocation_x;
 	}
 }
