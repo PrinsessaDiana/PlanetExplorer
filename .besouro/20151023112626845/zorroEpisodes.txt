@@ -12,5 +12,6 @@
 1445595449385 test-last 1 834 false
 1445595583550 production 1 134 false
 1445595724144 test-last 1 140 false
-1445595865878 refactoring 2A 141 false
-1445595878190 refactoring 1A 12 false
+1445595865878 refactoring 2A 141 true
+1445595878190 refactoring 1A 12 true
+1445596206736 test-first 3 328 true
