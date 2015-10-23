@@ -12,6 +12,8 @@ public class PlanetExplorer {
 	String obstacle_x;
 	String obstacle_y;
 	 int [][] planetSize;
+	 int planetEx_x;
+	 int planetEx_y;
 	
 
 	
@@ -28,9 +30,9 @@ public class PlanetExplorer {
 //		obstacles = obstacle_x + obstacle_y;
 			
 		
-		int [][] location = new int [x][y];
 		
-			
+			this.planetEx_x = x;
+			this.planetEx_y = y;
 		
 		}
 		
@@ -79,7 +81,12 @@ public class PlanetExplorer {
 		boolean facing_EAST;
 		boolean facing_WEST;
 		
+		int [][] location = new int [planetEx_x][planetEx_y];
+		
 		if(command == "f") {
+			
+			facing_EAST = true;
+			planetEx_y = planetEx_y + 1;
 			
 			
 			

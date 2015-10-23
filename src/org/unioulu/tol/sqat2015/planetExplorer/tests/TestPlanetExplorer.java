@@ -12,12 +12,15 @@ public class TestPlanetExplorer {
 	
 		PlanetExplorer pe = new PlanetExplorer(0, 0, null);
 		
+		int [][] planet = new int [6][6];
 		
-		pe.setPlanet(6, 6);
+		pe.setPlanet(planet);
 		
 		System.out.print(pe.getPlanet());
 		
+		String command = "f";
 		
+		pe.executeCommand(command);
 		
 	}
 }
