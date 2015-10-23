@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			int loca_y = location_y + 1;
 			face_SOUTH = true;
 			setExplorerLocation(location_x,loca_y);
-				
+				return "LOL";
 		}
 		
 		
