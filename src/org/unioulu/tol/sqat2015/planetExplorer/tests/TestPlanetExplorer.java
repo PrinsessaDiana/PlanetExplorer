@@ -23,7 +23,7 @@ public class TestPlanetExplorer {
 		
 		pe.executeCommand(command);
 		
-		assertEquals(location_x, pe.getExplorerLocation());
+		assertEquals(location_y, pe.getExplorerLocation());
 		
 	}
 }

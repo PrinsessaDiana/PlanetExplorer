@@ -190,3 +190,6 @@ CompilationAction 1445594169937 PlanetExplorer.java
 UnitTestCaseAction 1445594179957 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594179957 TestPlanetExplorer FAIL
 EditAction 1445594190703 TestPlanetExplorer.java 511 1 6 1
+UnitTestCaseAction 1445594191011 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594191012 TestPlanetExplorer OK
+EditAction 1445594212616 TestPlanetExplorer.java 511 1 6 1
