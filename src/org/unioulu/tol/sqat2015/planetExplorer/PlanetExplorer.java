@@ -121,7 +121,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		else if(command == "l") {
+		else if(command == "l" && currentLoca_x != 0) {
 			currentLoca_x = location_x - 1; //currentLocation is location_x +1 
 			face_SOUTH = false; // Facing EAST is true
 			     face_EAST = false;
