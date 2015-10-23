@@ -12,6 +12,8 @@ public class PlanetExplorer {
 	int y;
 	String obstacle_x;
 	String obstacle_y;
+	private int size_x;
+	private int size_y;
 
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -24,13 +26,17 @@ public class PlanetExplorer {
 	
 		
 		
-		obstacles = obstacle_x + obstacle_y;
+//		obstacles = obstacle_x + obstacle_y;
 			
+		this.size_x = x;
+		this.size_y = y;
+		this.obstacle
 			
+		
 		}
 		
 		
-	}
+	
 	
 	public void Planet (int x, int y) {
 		

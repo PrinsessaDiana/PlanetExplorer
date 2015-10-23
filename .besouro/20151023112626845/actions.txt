@@ -45,3 +45,8 @@ RefactoringAction 1445590632510 PlanetExplorer.java RENAME ox=>String obstacle_x
 RefactoringAction 1445590637527 PlanetExplorer.java RENAME y/2=>String obstacle_y FIELD
 RefactoringAction 1445590663094 PlanetExplorer.java MOVE <anonymous /1>=>class PlanetExplorer null
 EditAction 1445590804658 PlanetExplorer.java 1754 4 7 0
+CompilationAction 1445590804936 PlanetExplorer.java
+CompilationAction 1445590876586 PlanetExplorer.java
+RefactoringAction 1445590995497 PlanetExplorer.java ADD int size_x FIELD
+RefactoringAction 1445590998117 PlanetExplorer.java ADD int size_y FIELD
+EditAction 1445591052288 PlanetExplorer.java 1860 4 6 0
