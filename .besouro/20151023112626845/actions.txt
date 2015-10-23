@@ -1,0 +1,6 @@
+FileOpenedAction 1445588787309 TestPlanetExplorer.java 228 1 1 0
+FileOpenedAction 1445589051286 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1445589520863 PlanetExplorer.java ADD void Planet(int) METHOD
+RefactoringAction 1445589521884 PlanetExplorer.java RENAME Planet(int)=>void Planet(int, int) METHOD
+FileOpenedAction 1445589615171 BowlingGame.java 2282 6 19 0
+EditAction 1445589654593 PlanetExplorer.java 1438 3 1 0

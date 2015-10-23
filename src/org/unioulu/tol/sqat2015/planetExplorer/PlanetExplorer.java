@@ -11,6 +11,16 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
+		//Planeetta m‰‰ritell‰‰n
+		
+		
+	}
+	
+	public void Planet(int x, int y) {
+		
+		
+		
 	}
 	
 	public String executeCommand(String command){
