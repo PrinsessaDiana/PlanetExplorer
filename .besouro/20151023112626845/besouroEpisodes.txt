@@ -60,3 +60,4 @@
 1445596243675 test-addition 2 23 true
 1445596243676 test-addition 1 23 true
 1445596243677 test-addition 1 23 true
+1445596260887 test-addition 1 1 true
