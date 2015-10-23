@@ -85,9 +85,9 @@ public class PlanetExplorer {
 		
 		if(command == "f") {
 			
-			
+			location_y = location_y + 1;
 			face_SOUTH = true;
-			setExplorerLocation(location_x,location_y + 1);
+			setExplorerLocation(location_x,location_y);
 				
 		}
 		
