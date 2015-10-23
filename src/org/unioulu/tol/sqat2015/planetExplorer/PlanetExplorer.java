@@ -28,6 +28,7 @@ public class PlanetExplorer {
 //		obstacles = obstacle_x + obstacle_y;
 			
 		
+		int [][] location = new int [x][y];
 		
 			
 		
@@ -36,15 +37,15 @@ public class PlanetExplorer {
 		
 	
 	
-	public void SetPlanet (int x, int y) {
+	public void setPlanet (int planet[][]) {
 		
-		this.planetSize = [x][y];
+		this.planetSize = planet;
 		
 	}
 	
-	public int[][] GetPlanet () {
+	public int[][] getPlanet () {
 		
-		return 
+		return planetSize;
 		
 	}
 	
@@ -79,6 +80,7 @@ public class PlanetExplorer {
 		boolean facing_WEST;
 		
 		if(command == "f") {
+			
 			
 			
 		}
