@@ -8,8 +8,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class PlanetExplorer {
 	
-	int x;
-	int y;
+	
 	String obstacle_x;
 	String obstacle_y;
 	private int size_x;
@@ -28,9 +27,8 @@ public class PlanetExplorer {
 		
 //		obstacles = obstacle_x + obstacle_y;
 			
-		this.size_x = x;
-		this.size_y = y;
-		this.obstacle
+		
+		
 			
 		
 		}
@@ -38,10 +36,16 @@ public class PlanetExplorer {
 		
 	
 	
-	public void Planet (int x, int y) {
+	public void SetPlanet (int x, int y) {
 		
-		this.x = x;
-		this.y = y;
+		this.size_x = x;
+		this.size_y = y;
+		
+	}
+	
+	public int GetPlanet () {
+		
+		return size_x + size_y;
 		
 	}
 	
@@ -70,7 +74,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		boolean facing_NORTH;
+		boolean facing_SOUTH;
+		boolean facing_EAST;
+		boolean facing_WEST;
 		
+		if(command == "f") {
+			
+			
+		}
 		
 		
 		return null;

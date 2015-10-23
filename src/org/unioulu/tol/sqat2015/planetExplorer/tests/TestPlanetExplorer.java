@@ -13,7 +13,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(0, 0, null);
 		
 		
-		pe.executeCommand(null);
+		pe.SetPlanet(6, 6);
+		
+		System.out.print(pe.GetPlanet());
+		
 		
 		
 	}
