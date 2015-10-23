@@ -34,6 +34,6 @@ public class TestPlanetExplorer {
 		assertEquals(2, pe.getExplorerLocationHorizontal());
 		pe.executeCommand(command_l);
 		assertEquals(2, pe.getExplorerLocationVertical());
-		assertEquals(1, pe.getExplorerLocationHorizontal());
+		assertEquals(2, pe.getExplorerLocationHorizontal());
 	}
 }
