@@ -80,8 +80,8 @@ public class PlanetExplorer {
 		boolean face_NORTH;
 		boolean face_EAST;
 		boolean face_WEST;
-		int currentLoca_y;
-		int currentLoca_x;
+		int currentLoca_y = 0;
+		int currentLoca_x = 0;
 		
 		//If command is f :
 		if(command == "f") {
