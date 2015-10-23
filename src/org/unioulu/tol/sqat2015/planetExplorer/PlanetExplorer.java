@@ -6,10 +6,11 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 
 
-
 public class PlanetExplorer {
 	
-	int [][] planet = new int [6][6];
+	int x;
+	int y;
+
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -20,6 +21,13 @@ public class PlanetExplorer {
 	 */
 		
 		
+		
+	}
+	
+	public void Planet (int x, int y) {
+		
+		this.x = x;
+		this.y = y;
 		
 	}
 	

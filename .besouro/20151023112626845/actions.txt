@@ -19,3 +19,15 @@ RefactoringAction 1445590167811 TestPlanetExplorer.java ADD import org.unioulu.t
 EditAction 1445590211935 PlanetExplorer.java 1449 2 2 0
 EditAction 1445590285056 PlanetExplorer.java 1450 2 2 0
 EditAction 1445590286449 TestPlanetExplorer.java 362 1 2 0
+UnitTestCaseAction 1445590287846 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590287848 TestPlanetExplorer OK
+UnitTestCaseAction 1445590293736 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590293736 TestPlanetExplorer OK
+RefactoringAction 1445590343439 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1445590351982 PlanetExplorer.java ADD void Planet() METHOD
+RefactoringAction 1445590355497 PlanetExplorer.java RENAME Planet()=>void Planet(int, int) METHOD
+RefactoringAction 1445590396135 PlanetExplorer.java ADD int planet_x FIELD
+RefactoringAction 1445590396136 PlanetExplorer.java ADD int planet_y FIELD
+RefactoringAction 1445590428243 PlanetExplorer.java RENAME planet_x=>int x FIELD
+RefactoringAction 1445590430258 PlanetExplorer.java RENAME planet_y=>int y FIELD
+EditAction 1445590431965 PlanetExplorer.java 1515 3 4 0
