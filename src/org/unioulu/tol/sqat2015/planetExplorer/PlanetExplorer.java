@@ -80,15 +80,31 @@ public class PlanetExplorer {
 		boolean face_NORTH;
 		boolean face_EAST;
 		boolean face_WEST;
+		int currentLoca_y;
+		int currentLoca_X;
 		
-		
-		
+		//If command is f :
 		if(command == "f") {
 			
-			int loca_y = location_y + 1;
-			face_SOUTH = true;
-			setExplorerLocation(location_x,loca_y);
-				System.out.print("command f");
+			currentLoca_y = location_y + 1; //currentLocation is location_y +1 
+			face_SOUTH = true; // Facing south is true
+			     face_EAST = false;
+			     face_WEST = false;
+			     face_NORTH = false;
+			setExplorerLocation(location_x,currentLoca_y); //Setting Explorer
+			
+				System.out.print("command f" + face_SOUTH); // Testing that test runs this "if"
+		}
+		
+		else if(command == "r") {
+			
+			currentLoca_x = location_x + 1; //currentLocation is location_x +1 
+			face_SOUTH = false; // Facing EAST is true
+			     face_EAST = true;
+			     face_WEST = false;
+			     face_NORTH = false;
+			setExplorerLocation(location_x,currentLoca_y); //Setting Explorer
+			
 		}
 		
 		
