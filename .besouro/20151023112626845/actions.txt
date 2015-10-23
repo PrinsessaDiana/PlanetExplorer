@@ -31,3 +31,17 @@ RefactoringAction 1445590396136 PlanetExplorer.java ADD int planet_y FIELD
 RefactoringAction 1445590428243 PlanetExplorer.java RENAME planet_x=>int x FIELD
 RefactoringAction 1445590430258 PlanetExplorer.java RENAME planet_y=>int y FIELD
 EditAction 1445590431965 PlanetExplorer.java 1515 3 4 0
+CompilationAction 1445590432239 PlanetExplorer.java
+RefactoringAction 1445590508368 PlanetExplorer.java ADD String Obn FIELD
+RefactoringAction 1445590511381 PlanetExplorer.java RENAME Obn=>String Ob FIELD
+RefactoringAction 1445590512895 PlanetExplorer.java RENAME Ob=>String Obstacles FIELD
+RefactoringAction 1445590513909 PlanetExplorer.java RENAME Obstacles=>String Obstacles() METHOD
+RefactoringAction 1445590518425 PlanetExplorer.java RENAME Obstacles()=>String Obstacles(String) METHOD
+RefactoringAction 1445590520939 PlanetExplorer.java RENAME Obstacles(String)=>String Obstacles(String, String) METHOD
+RefactoringAction 1445590619982 PlanetExplorer.java ADD String x/2 FIELD
+RefactoringAction 1445590619982 PlanetExplorer.java ADD String y/2 FIELD
+RefactoringAction 1445590629996 PlanetExplorer.java RENAME x/2=>String ox FIELD
+RefactoringAction 1445590632510 PlanetExplorer.java RENAME ox=>String obstacle_x FIELD
+RefactoringAction 1445590637527 PlanetExplorer.java RENAME y/2=>String obstacle_y FIELD
+RefactoringAction 1445590663094 PlanetExplorer.java MOVE <anonymous /1>=>class PlanetExplorer null
+EditAction 1445590804658 PlanetExplorer.java 1754 4 7 0

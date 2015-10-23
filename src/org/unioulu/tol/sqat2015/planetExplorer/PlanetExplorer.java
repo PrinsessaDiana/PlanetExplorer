@@ -10,6 +10,8 @@ public class PlanetExplorer {
 	
 	int x;
 	int y;
+	String obstacle_x;
+	String obstacle_y;
 
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -19,7 +21,13 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+	
 		
+		
+		obstacles = obstacle_x + obstacle_y;
+			
+			
+		}
 		
 		
 	}
@@ -28,6 +36,16 @@ public class PlanetExplorer {
 		
 		this.x = x;
 		this.y = y;
+		
+	}
+	
+	public String Obstacles(String obs_x, String obs_y) {
+		
+		obstacle_x = obs_x;
+		obstacle_y = obs_y;
+		
+		return obstacle_x + obstacle_y;
+		
 		
 	}
 	
@@ -46,7 +64,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		System.out.print(planet);
+		
 		
 		
 		return null;
