@@ -121,6 +121,15 @@ public class PlanetExplorer {
 			
 		}
 		
+		else if(command == "l") {
+			currentLoca_x = location_x - 1; //currentLocation is location_x +1 
+			face_SOUTH = false; // Facing EAST is true
+			     face_EAST = false;
+			     face_WEST = true;
+			     face_NORTH = false;
+			setExplorerLocationHorizontal(currentLoca_x); //Setting Explorer
+		}
+		
 		String currentLocation_x = Integer.toString(currentLoca_x);
 		String currentLocation_y = Integer.toString(currentLoca_y);
 		
