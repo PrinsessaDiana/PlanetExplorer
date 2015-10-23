@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 		
 		
 		
-		int location_x = 0;
+		int location_x = 1;
 		int location_y = 1;
 		
 		
@@ -24,7 +24,8 @@ public class TestPlanetExplorer {
 		
 		pe.executeCommand(command_f);
 		pe.executeCommand(command_r);
-		assertEquals(location_y, pe.getExplorerLocation());
+		assertEquals(location_y, pe.getExplorerLocationVertical());
+		assertEquals(location_x, pe.getExplorerLocationHorizontal());
 		
 	}
 }

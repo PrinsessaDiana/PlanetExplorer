@@ -51,15 +51,26 @@ public class PlanetExplorer {
 	}
 	
 	
- public void setExplorerLocation(int location_x, int location_y) {
+ public void setExplorerLocationHorizontal(int location_x) {
 	 
 	 this.location_x = location_x;
-	 this.location_y = location_y;
+	 
  }
  
- public int getExplorerLocation() {
+ public int getExplorerLocationHorizontal() {
 	 
-	 return location_x & location_y;
+	 return location_x;
+ }
+ 
+ public void setExplorerLocationVertical(int location_y) {
+	 
+	 this.location_y = location_y;
+	 
+ }
+ 
+ public int getExplorerLocationVertical() {
+	 
+	 return location_y;
  }
 		
 
@@ -91,9 +102,9 @@ public class PlanetExplorer {
 			     face_EAST = false;
 			     face_WEST = false;
 			     face_NORTH = false;
-			setExplorerLocation(location_x,currentLoca_y); //Setting Explorer
+			setExplorerLocationVertical(currentLoca_y); //Setting Explorer
 			
-				System.out.print("command f" + face_SOUTH + getExplorerLocation()); // Testing that test runs this "if"
+				System.out.print("command f" + face_SOUTH + getExplorerLocationVertical()); // Testing that test runs this "if"
 		}
 		
 		else if(command == "r") {
@@ -103,7 +114,7 @@ public class PlanetExplorer {
 			     face_EAST = true;
 			     face_WEST = false;
 			     face_NORTH = false;
-			setExplorerLocation(currentLoca_x,currentLoca_y); //Setting Explorer
+			setExplorerLocationHorizontal(currentLoca_x); //Setting Explorer
 			
 		}
 		

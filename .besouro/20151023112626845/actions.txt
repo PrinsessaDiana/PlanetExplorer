@@ -198,3 +198,25 @@ UnitTestSessionAction 1445594213872 TestPlanetExplorer FAIL
 EditAction 1445594254048 TestPlanetExplorer.java 571 1 8 1
 EditAction 1445594273360 TestPlanetExplorer.java 571 1 8 1
 EditAction 1445594293513 PlanetExplorer.java 2929 5 16 0
+UnitTestCaseAction 1445594294975 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594294976 TestPlanetExplorer FAIL
+RefactoringAction 1445594501369 PlanetExplorer.java RENAME getExplorerLocation()=>int getExplorerLocationHorizontal() METHOD
+RefactoringAction 1445594513388 PlanetExplorer.java RENAME setExplorerLocation(int, int)=>void setExplorerLocation(int) METHOD
+RefactoringAction 1445594519922 PlanetExplorer.java RENAME setExplorerLocation(int)=>void setExplorerLocationHorizontal(int) METHOD
+CompilationAction 1445594525710 PlanetExplorer.java
+CompilationAction 1445594525710 PlanetExplorer.java
+CompilationAction 1445594525710 TestPlanetExplorer.java
+RefactoringAction 1445594530956 PlanetExplorer.java ADD void setExplorerLocationHorizontal(int)/2 METHOD
+RefactoringAction 1445594530957 PlanetExplorer.java ADD int getExplorerLocationHorizontal()/2 METHOD
+RefactoringAction 1445594533975 PlanetExplorer.java RENAME setExplorerLocationHorizontal(int)/2=>void setExplorerLocationV(int) METHOD
+RefactoringAction 1445594534992 PlanetExplorer.java RENAME setExplorerLocationV(int)=>void setExplorerLocationVertical(int) METHOD
+RefactoringAction 1445594546580 PlanetExplorer.java RENAME getExplorerLocationHorizontal()/2=>int getExplorerLocationV() METHOD
+RefactoringAction 1445594548098 PlanetExplorer.java RENAME getExplorerLocationV()=>int getExplorerLocationVertical() METHOD
+CompilationAction 1445594549271 PlanetExplorer.java
+CompilationAction 1445594549271 PlanetExplorer.java
+CompilationAction 1445594549442 PlanetExplorer.java
+CompilationAction 1445594549442 PlanetExplorer.java
+CompilationAction 1445594549442 TestPlanetExplorer.java
+CompilationAction 1445594589398 PlanetExplorer.java
+CompilationAction 1445594589399 PlanetExplorer.java
+EditAction 1445594612953 TestPlanetExplorer.java 644 1 9 2
