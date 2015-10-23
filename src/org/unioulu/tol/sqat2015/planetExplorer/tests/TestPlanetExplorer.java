@@ -19,10 +19,11 @@ public class TestPlanetExplorer {
 		int location_y = 1;
 		
 		
-		String command = "f";
+		String command_f = "f";
+		String command_r = "r";
 		
-		pe.executeCommand(command);
-		
+		pe.executeCommand(command_f);
+		pe.executeCommand(command_r);
 		assertEquals(location_y, pe.getExplorerLocation());
 		
 	}
