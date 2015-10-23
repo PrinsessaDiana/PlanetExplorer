@@ -4,3 +4,10 @@ RefactoringAction 1445589520863 PlanetExplorer.java ADD void Planet(int) METHOD
 RefactoringAction 1445589521884 PlanetExplorer.java RENAME Planet(int)=>void Planet(int, int) METHOD
 FileOpenedAction 1445589615171 BowlingGame.java 2282 6 19 0
 EditAction 1445589654593 PlanetExplorer.java 1438 3 1 0
+RefactoringAction 1445589716311 PlanetExplorer.java REMOVE Planet(int, int) METHOD
+RefactoringAction 1445589813094 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445589883887 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1445589891427 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445589969445 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1445590040104 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int FIELD
+EditAction 1445590085696 PlanetExplorer.java 1416 2 1 0
